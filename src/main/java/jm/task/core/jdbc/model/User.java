@@ -7,16 +7,16 @@ import javax.persistence.Table;
 @Table
 public class User {
     @Id
-    public Long id;
+    private Long id;
 
     @Column
-    public String name;
+    private String name;
 
     @Column
-    public String lastName;
+    private String lastName;
 
     @Column
-    public Byte age;
+    private Byte age;
 
     public User() {
     }
